@@ -86,6 +86,26 @@ const App = () => {
       </div>
     );
   }
+  
+
+
+
+
+const session = await Auth.currentSession();
+
+
+const extensionId = 'dlmjaemnhmiffoeadnfllpnboabobjen';
+
+chrome.runtime.sendMessage(extensionID, session,
+        function(response) {
+            // console.log(response);     
+        });
+
+
+
+
+
+
 
   return (
     <div className="App">
