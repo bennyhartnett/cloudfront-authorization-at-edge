@@ -22,6 +22,29 @@
   text-align: center;
 }
 
+.img-container {
+  text-align: center;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding-top: 100px;
+}
+
+.headertext
+ {
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2e5666;
+}
+
+.bodytext
+{
+  font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
+
+}
+
+
+
 /* Tooltip container */
 .config {
   position: relative;
